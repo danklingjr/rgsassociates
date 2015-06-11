@@ -5916,3 +5916,11 @@ a.blue-btn-wide {
 @media (min-width: 980px) {
   
 }
+
+.content{
+  text-align: center;
+}
+.content--home-intro{
+  background-color: green;
+}
+
