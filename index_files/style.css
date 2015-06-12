@@ -5928,10 +5928,7 @@ New Styles added for homepage
 .content--home-intro{
   background-color: #7A9A01;
 }
-.content--home-portfolio{
-  background-color: #ccc;
-
-}
+.content--home-portfolio{ background-color: #ccc; }
 
 .section__title{
   position: relative;
@@ -5942,9 +5939,7 @@ New Styles added for homepage
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-.content--home-portfolio .section__title{
-  color: #5C5857;
-}
+.content--home-portfolio .section__title{ color: #5C5857; }
 .section__title:after,
 .title--news:after{
   content: '';
@@ -5954,18 +5949,19 @@ New Styles added for homepage
   width: 100%;
   border-bottom: 1px solid #fff;
 }
-.title--news{
-  color: #737373;
-}
-.title--news:after{
-  border-bottom: 1px solid #5C5857;
-}
+.title--news{ color: #737373; }
+.title--news:after{ border-bottom: 1px solid #5C5857; }
 
 .content--home-portfolio .section__title:after{
   content: '';
   border-bottom: 1px solid #5C5857;
 }
-
+.content--home-intro{
+  background-image: url(../index_files/green-noise.jpg);
+}
+.content--home-portfolio{
+  background-image: url(../index_files/noise.jpg);
+}
 .content--home-portfolio p,
 .content--home-portfolio .portfolio__wrap{
   max-width: 1024px;
@@ -5989,9 +5985,7 @@ New Styles added for homepage
   line-height: 1.6em;
   color: #fff;
 }
-.content--news > p{
-  color: #737373;
-}
+.content--news > p{ color: #737373; }
 .button{
   display: inline-block;
   background-color: #fff;
@@ -6007,9 +6001,7 @@ New Styles added for homepage
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
-.button--light{
-  color: #5C5857;
-}
+.button--light{ color: #5C5857; }
 .button--light:hover,
 .button--light:focus,
 .button--dark:hover,
@@ -6023,7 +6015,7 @@ New Styles added for homepage
   color: #fff;
 }
 .project figure{
-  background-color: #dfdee4;
+  background-color: #ededed;
   width: 100%;
   margin: 0;
   border: 1px solid #d4d2d2; /* #d4d2d2 */
@@ -6048,9 +6040,7 @@ New Styles added for homepage
   float: left;
   margin: 0 1% 1.5%;
 }
-.content--services{
-  background-color: #5C5857;
-}
+.content--services{ background-color: #5C5857; }
 .service__wrap{
   position: relative;
   max-width: 1024px;
@@ -6107,9 +6097,7 @@ New Styles added for homepage
 .service h3{
   
 }
-.service figure{
-  margin: 0;
-}
+.service figure{ margin: 0; }
 
 .content--news{
   box-sizing: border-box;
@@ -6121,9 +6109,7 @@ New Styles added for homepage
   padding-left: 20px;
   padding-right: 20px;
 }
-.article{
-  margin: 40px 0;
-}
+.article{ margin: 40px 0; }
 .article__graphic{
   display: block;
   width: 40%;
@@ -6135,9 +6121,7 @@ New Styles added for homepage
   vertical-align: middle;
   box-sizing: border-box;
 }
-.article__graphic img{
-  width: 100%;
-}
+.article__graphic img{ width: 100%; }
 .article__content{
   box-sizing: border-box;
   display: block;
@@ -6168,12 +6152,8 @@ New Styles added for homepage
   line-height: 1.6em;
   color: #737373;
 }
-.article__content .button{
-  margin-top: 15px;
-}
-.content--news hr{
-  border: 1px solid #ccc;
-}
+.article__content .button{ margin-top: 15px; }
+.content--news hr{ border: 1px solid #ccc; }
 .contact-info{
   background: #3d3b3a url(../index_files/footer-bg.jpg) center top;
   padding-bottom: 50px;
@@ -6200,17 +6180,13 @@ New Styles added for homepage
   text-transform: uppercase;
   margin: 0;
 }
-.address--footer p span{
-  color: #7A9A01;
-}
+.address--footer p span{ color: #7A9A01; }
 .logo--footer{
   float: left;
   width: 120px;
   margin-right: 40px;
 }
-.footer--menu{
-  padding-top: 20px;
-}
+.footer--menu{ padding-top: 20px; }
 .footer--menu a{
   display: block;
   font-size: 14px;
